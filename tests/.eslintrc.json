@@ -1,6 +1,8 @@
 {
-	"root": true,
-	"plugins": [
-		"vitest"
-	]
+  // disable rules for tests
+  "rules": {
+      "functional/no-expression-statement": "off",
+      "functional/functional-parameters": "off",
+      "functional/no-return-void": "off"
+  }
 }
