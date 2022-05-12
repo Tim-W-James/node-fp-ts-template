@@ -14,6 +14,7 @@
     "node": true
   },
   "extends": [
+    "typed-fp",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:sonarjs/recommended",
@@ -22,7 +23,9 @@
   "plugins": [
     "@typescript-eslint",
     "sonarjs",
-    "prettier"
+    "prettier",
+    "functional",
+    "total-functions"
   ],
   "ignorePatterns": ["/*.*"],
   "rules": {
